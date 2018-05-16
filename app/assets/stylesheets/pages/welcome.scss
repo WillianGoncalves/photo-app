@@ -1,0 +1,28 @@
+.price {
+  text-transform: uppercase;
+  color: silver;
+  font-weight: bold;
+}
+
+.features {
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    li {
+      padding: 5px 0;
+      &:before {
+        font-family: FontAwesome;
+        content: "\f00c";
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.jumbotron {
+  text-align: center;
+  background: asset-url('photoapp.jpg') no-repeat center;
+  background-size: cover;
+  color: beige;
+}
